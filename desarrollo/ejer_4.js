@@ -1,18 +1,20 @@
 let lis = ["colombia", "peru", "argentina", "brasil"];
-let list = [""];
+let list = []; // Aseguramos que sea un array vacío
 
-let selecion = prompt("selecione el pais que quiere buscar  ");
+let seleccion = prompt("Seleccione el país que quiere buscar:");
 
-let fillt = lis.filter((pais) => pais == selecion);
-callback = (fillt) => {
-  if (true) {
-    list.push(lis);
+// Filtrar el país seleccionado
+let filtrado = lis.filter((pais) => pais === seleccion);
+
+const callback = (resultado) => {
+  if (resultado.length > 0) {
+    list.push(resultado[0]); // Agregar solo el país encontrado
+    return `Se agregó: ${resultado[0]}`;
+  } else {
+    return "País no encontrado.";
   }
-}
+};
 
-console.log(calback(fillt));
-
-
-
-
-
+// Llamamos la función y mostramos el resultado
+console.log(callback(filtrado));
+console.log("Lista actualizada:", list); // Mostramos la lista con los países agregados
