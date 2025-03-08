@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "nombre": "lebrija"
+    },
+    {
+        "id":2,
+        "nombre": "mirador"
+    },
+    {
+        "id":3,
+        "nombre": "villas"
+    },
+    {
+        "id":4,
+        "nombre": "pueblo"
+    }
+]

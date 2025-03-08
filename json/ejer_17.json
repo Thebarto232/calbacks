@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "equipo": "nacional",
+    "tipo": "futbol",
+    "copas": 32
+  },
+  {
+    "id": 2,
+    "equipo": "barcelona",
+    "tipo": "futbol",
+    "copas": 23
+  },
+  {
+    "id": 3,
+    "equipo": "real madrid",
+    "tipo": "futbol",
+    "copas": 22
+  },
+  {
+    "id": 4,
+    "equipo": "sevilla",
+    "tipo": "futbol",
+    "copas": 1
+  }
+]
